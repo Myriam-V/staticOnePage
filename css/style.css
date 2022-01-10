@@ -4,35 +4,65 @@ body {
 	margin:3rem;
 	border: 2px solid grey;
 	border-radius:15px ;
+
 }
 .header {
-	display:flex;
-;
+	display:flex;	
+	border-radius:15px ;
 }
 
 .greating {
-	display: flex;
-	flex-wrap: wrap;
-	background-color:#bdd7ee;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border-top-right-radius: 80px;
-	border-bottom-right-radius: 80px;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius:800px ;
+	padding:1rem;
+	background-color: #bdd7ee;
+	justify-content: space-between;
 }
-.logo {
- 	width: 100px;
-	height: 100px;;	
+.headertitle {
+	font-style: bold;
+  text-align: left;
+  font-size: 1rem;
 }
-.living {
-	padding: 0px;
-	width: 150px;
-	height:150px;
-	border-radius:50%;
-	margin-top:6rem;
 
+.logo{
+	padding: 0px;
+	width: 110px;
+	height:110px;
+	
+}
+.image{
+	margin-top: 4rem;
+	padding: 0px;
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	border: 1px solid grey;
+}
+.presentation {
+	font-style: italic;
+  text-align: left;
+  font-size: 0.75rem;
+	margin-bottom: 2rem;
+}
+.minicircle{
+	padding: 0px;
+	width: 80px;
+	height:80px;
+	border-radius: 50%;
+	background-color:whitesmoke;
 }
 .aside {
-	margin-top:8rem ;
-	background-color: #bdd7ee;
-	
+	font-style: italic;
+  text-align: left;
+  font-size: 0.75rem;
+}
+.circle{
+	padding: 0px;
+	margin-left:11rem;
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+	background-color:#bdd7ee;
+	margin-bottom:10rem;
 }
