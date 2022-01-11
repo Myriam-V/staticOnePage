@@ -12,12 +12,9 @@ body {
 }
 
 .greating {
-	border-top-left-radius: 40px;
-	border-bottom-left-radius: 40px;
-	border-top-right-radius:800px ;
+	border-top-left-radius: 15px;
 	padding:1rem;
 	background-color: #bdd7ee;
-	justify-content: space-between;
 }
 .headertitle {
 	font-style: bold;
@@ -27,8 +24,8 @@ body {
 
 .logo{
 	padding: 0px;
-	width: 110px;
-	height:110px;
+	width:150px;
+	height: 150px;
 	
 }
 .image{
@@ -50,9 +47,11 @@ body {
 	width: 80px;
 	height:80px;
 	border-radius: 50%;
-	background-color:whitesmoke;
+	background-color:red;
 }
 .aside {
+	margin-top:20rem;
+	padding: 1rem;
 	font-style: italic;
   text-align: left;
   font-size: 0.75rem;
@@ -65,4 +64,51 @@ body {
 	border-radius: 50%;
 	background-color:#bdd7ee;
 	margin-bottom:10rem;
+}
+.footer {
+	background-color:#bdd7ee;
+	padding:2rem;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+
+.footertitle {
+	font-style: bold;
+  text-align: left;
+  font-size: 1rem;
+	margin-left: 16rem;
+}
+.subscription {
+	font-style: italic;
+  text-align: left;
+  font-size: 0.75rem;
+	margin-bottom: 2rem;
+	margin-left: 9rem;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: black;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color:white;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
