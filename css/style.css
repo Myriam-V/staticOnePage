@@ -67,12 +67,17 @@ body {
 }
 .footer {
 	background-color:#bdd7ee;
-	padding:2rem;
+	padding:1rem;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
-
-
+.footercircle{
+	padding: 0px;
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+	background-color:white;
+}
 .footertitle {
 	font-style: bold;
   text-align: left;
@@ -89,7 +94,8 @@ body {
 .styled {
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 0 15px;
+		margin-left: 18rem;
     font-size: 1rem;
     text-align: center;
     color: #fff;
