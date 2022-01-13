@@ -1,0 +1,91 @@
+body {
+	width:100vh;
+	height: 100vw;
+	font-family: 'Roboto', sans-serif;
+ 	background-color: whitesmoke;
+	border: 1px solid grey;
+	border-radius:15px ;
+}
+.header {
+	display:flex;	
+	border-radius:15px ; 
+	background-color: #bdd7ee;
+}
+
+.greating {
+	border-top-left-radius: 15px;
+}
+.headertitle {
+	font-style: bold;
+  text-align: left;
+  font-size: 0.25rem;
+}
+
+.logo{
+	padding: 0px;
+	width:30px;
+	height:30px;
+	
+}
+.image{
+	padding: 0px;
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	border: 1px solid grey;
+}
+.presentation {
+	font-style: italic;
+  text-align: left;
+  font-size: 0.15rem;
+
+}
+.aside {
+	font-style: italic;
+  text-align: left;
+  font-size: 0.15rem;
+}
+.footer {
+	background-color:#bdd7ee;
+	padding:1rem;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.footertitle {
+	font-style: bold;
+  text-align: left;
+  font-size: 0.75rem;
+}
+.subscription {
+	font-style: italic;
+  text-align: left;
+  font-size: 0.25rem;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 15px;
+		margin-left: 18rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: black;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color:white;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

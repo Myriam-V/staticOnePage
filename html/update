@@ -1,0 +1,25 @@
+	<body>
+			<header class="header">
+				<div class="greating">
+					<img class="logo" src="../images/Minimal Gray Modern House Logo.svg" alt="">
+					<h1 class="headertitle"> Welcome to interior studio!</h1>
+					<p class="presentation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nobis!</p>		
+				</div>
+				<div class="embelishement">
+					<img class="image" src="../images/alyssa-strohmann-2r2RUsEU1Aw-unsplash.jpg" alt="">
+				</div>
+					<div class="aside">
+					<p>	Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>			
+				</div>
+		</header>
+		<main>
+
+		</main>
+	
+		<footer class="footer">
+			<h1 class="footertitle"> Ready to subscribe?</h1>
+			<p class="subscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nobis!</p>		
+			<button class="favorite styled" type="button"> Read More</button>			
+		</footer>
+	</body>
+</html>
