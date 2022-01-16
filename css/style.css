@@ -55,6 +55,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
+
 }
 
 .img2 {
@@ -88,16 +89,29 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 1rem;
-	/*flex-wrap: wrap;*/
+	padding: 2rem;
+	flex-wrap: nowrap;
+
+}
+.container3{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
 }
 .service{
-	padding:0.5rem;
+	padding:0.3rem;
+}
+.clients{
+	padding:0.3rem;
+}
+.suppliers{
+	padding:0.3rem;
 }
 .icons {
 	padding: 0px;
-	width: 30px;
-	height:30px;
+	width: 20px;
+	height:20px;
 }
 .servicetitle {
 	font-style: bold;
